@@ -1,5 +1,7 @@
 # [rayground.com](https://www.rayground.com)
 
+![Image description](https://rayground.com/images/projects/image.jpg)
+
 Rayground is a web-based framework for rapid prototyping of algorithms based on the ray tracing paradigm. Its main goal is to help develop, test and share self contained modules that showcase a particular method or technique.
 
 ### Prerequisites
