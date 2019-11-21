@@ -4,7 +4,7 @@ Rayground is a web-based framework for rapid prototyping of algorithms based on 
 
 ### Prerequisites
 
-The website runs only on WebGL2-enabled browsers where the extension `EXT_color_buffer_float` must be enabled, if the device supports it.
+The website runs only on WebGL2-enabled browsers and requires the `EXT_color_buffer_float` extension.
 
 ### Aim
 
