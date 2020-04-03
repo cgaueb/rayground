@@ -6,7 +6,7 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 </p>
 
 ![Image description](Figures/teaser.jpg)
-**Teaser.** Rayground logo illuminated and shaded with a simple path tracer implementation. Rayground project link can be found <a href="https://www.rayground.com/view/WwBwf-k639U"> here </a>.
+**Teaser.** Rayground logo illuminated and shaded with a simple path tracer implementation. Project link can be found <a href="https://www.rayground.com/view/WwBwf-k639U"> here </a>.
 
 ## Description
 
