@@ -5,7 +5,7 @@ Rayground is a web-based framework for rapid prototyping of algorithms based on 
 This work aims to demystify ray tracing fundamentals while relying on the established GLSL shading language for code development and the underlying WebGL pipeline for its hidden execution model. It is intended for people who are already familiar with the basics of computer graphics theory and shader-based programming. A detailed documentation of the Rayground's programming interface is available <a href="https://www.rayground.com/documentation"> on-site </a>, coupled with  many demo and tutorial projects, in order tp ease the way of newcomers.
 </p>
 
-![Image description](Figures\teaser.jpg)
+![Image description](Figures/teaser.jpg)
 **Teaser.** Rayground logo illuminated and shaded with a simple path tracer implementation. Rayground project link can be found <a href="https://www.rayground.com/view/WwBwf-k639U"> here </a>.
 
 ## Description
@@ -13,7 +13,7 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 Rayground aims to demystify raytracing fundamentals, by providing a well-defined WebGL-based programmable graphics pipeline of configurable distinct raytracing stages coupled with a simple scene description format. The graphical user interface of Rayground is designed to have two discrete parts, the _preview window_ and the _shader editor_, similar to the layout of 
 <a href="https://www.shadertoy.com/"> ShaderToy</a>, which many shader developers are already familiar with (Fig. 1). Visual feedback is interactively provided in the WebGL rendering context of the preview canvas, while the user performs live source code modifications. Rayground  follows a  programmable GPU-accelerated ray-tracing pipeline in order to give developers direct and flexible control of five ray tracing stages through a simple, high-level shader-based programming model. Thus, the shader editor  consists  of  five  tabs,  corresponding  to  five  customisableshader stage, namely _Scene_, _Generate_, _Hit_, _Miss_ and _PostProcess_.
 
-![Image description](Figures\gui.jpg)
+![Image description](Figures/gui.jpg)
 **Figure 1.** (Left) The Rayground interface, with the _preview window_ and the _shader editor_, showing the _Generate_ stage. (Middle and Right) _Hit_ and _Miss_ event shaders for the same project, where the Cornell Box scene is rendered using a simple path tracer. Complete implementation details can be found 
 <a href="https://www.rayground.com/view/dExaQa67tqI"> here </a>.
 
@@ -45,14 +45,14 @@ The goal of this github account is twofold:
 
 **Figures.**
 
-![Image description](Figures\lab1.jpg)
+![Image description](Figures/lab1.jpg)
 **Figure 2.** Output of the first (a-c) and second (d) undergraduatelab sessions. 
 a) <a href="https://www.rayground.com/view/WmVHCgz0qss"> Unlit shading of supported primitives. </a>
 b) <a href="https://www.rayground.com/view/7_Pl0NIBFdQ"> Cornell Box using normal vector colouring </a> and 
 c) <a href="https://www.rayground.com/view/H-Ve5hrVPug"> Lambertian shading</a>.
 d) <a href="https://www.rayground.com/view/LYnWPJNFuPU"> Whitted-style ray tracing</a>.
 
-![Image description](Figures\lab2.jpg)
+![Image description](Figures/lab2.jpg)
 **Figure 3.** Output of the graduate lab session tasks. 
 a) <a href="https://www.rayground.com/view/RuVlw5EAs9A"> Ambient occlusion</a>.
 b) <a href="https://www.rayground.com/view/feYfjVF3fXM"> Unidirectional path tracer using importance sampling</a>.
@@ -64,7 +64,7 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
 
 ### <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html"> 1. Ray Tracing in One Weekend </a> 
 
-![Image description](Figures\rtiow.png)
+![Image description](Figures/rtiow.png)
 
 #### Rayground links
 
@@ -81,7 +81,7 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
 
 ### <a href="https://raytracing.github.io/books/RayTracingTheNextWeek.html"> 2. Ray Tracing the Next Week </a> 
 
-![Image description](Figures\rttnw.png)
+![Image description](Figures/rttnw.png)
 
 #### Rayground links
 
@@ -94,7 +94,7 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
 
 ### <a href="https://dl.acm.org/doi/abs/10.1145/1198555.1198743"> 3. Whitted Ray Tracing </a> 
 
-![Image description](Figures\whitted.png)
+![Image description](Figures/whitted.png)
 
 #### Rayground links
 
@@ -103,7 +103,7 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
 
 ### <a href="https://dl.acm.org/doi/abs/10.1145/1198555.1198743"> 4. Ambient Occlusion </a> 
 
-![Image description](Figures\ao.png)
+![Image description](Figures/ao.png)
 
 #### Rayground links
 
