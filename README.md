@@ -1,8 +1,8 @@
-# [Rayground.com](https://www.rayground.com)
+# [Rayground: Ray tracing prototyping on the web](https://www.rayground.com)
 
 <p style='text-align: justify;'>
 Rayground is a web-based framework for rapid prototyping of algorithms based on the ray tracing paradigm. Its main goal is to help develop, test and share self contained modules that showcase a particular method or technique. 
-This work aims to demystify ray tracing fundamentals while relying on the established GLSL shading language for code development and the underlying WebGL pipeline for its hidden execution model. It is intended for people who are already familiar with the basics of computer graphics theory and shader-based programming. A detailed documentation of the Rayground's programming interface is available <a href="https://www.rayground.com/documentation"> on-site </a>, coupled with  many demo and tutorial projects, in order tο ease the way of newcomers.
+This work aims to demystify ray tracing fundamentals while relying on the established GLSL shading language for code development and the underlying WebGL pipeline for its hidden execution model. It is intended for people who are already familiar with the basics of computer graphics theory and shader-based programming. A detailed documentation of the Rayground's programming interface is available <a href="https://www.rayground.com/documentation"> on-site</a>, coupled with  many demo and tutorial projects, in order tο ease the way of newcomers.
 </p>
 
 ![Image description](Figures/teaser.jpg)
@@ -11,6 +11,17 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 ## Prerequisites
 
 Rayground is open, cross-platform, and available to everyone. It does not rely on any browser plugins and thus runs on any platform that has a modern standards compliant browser. Specifically, the website runs only on WebGL2-enabled browsers and requires the `EXT_color_buffer_float` extension. 
+
+### Tested Configurations
+
+Rayground has been successfully tested with the following configurations:
+
+| **Device**        | **Graphics Card**         | **OS**                          | **Browser**                | **Status** | **Issues** |
+|:---               |:---                       |:---                             |:---                        |:---   |:---   
+|`Personal Computer`           | `Nvidia GeForce GTX 670`    | `Ubuntu 18.04.4 LTS`      | Chrome, Firefox            | Success | -
+|`Personal Computer`           | `Nvidia GeForce RTX 2080`   | `Windows 10 Pro`          | Chrome, Firefox            | Success | -
+|`MacBook Pro 13-inch, Mid 2009`           | `NVIDIA GeForce 9400M` | `OS X El Capitan`          | Chrome, Firefox            | Success | Canvas resize not working
+|`Xiaomi Redmi Note 6 Pro`      | `Adreno 509` | `Android 9 Pie`          | Chrome            | Success | - 
 
 ## Aim
 
