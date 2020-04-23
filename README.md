@@ -15,7 +15,7 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 - [Prerequisites](#Prerequisites)
 - [Aim](#Aim)
 - [Description](#Description)
-- [Path tracing in one hour!](#Path-tracing-in-one-hour!)
+- [Path tracing in one hour](#Path-tracing-in-one-hour)
 - [Research Achievements](#Research-Achievements)
 - [Example Projects](#Example-Projects)
 
@@ -106,7 +106,7 @@ The Rayground API is implemented using the WebGL2 standard, supporting shader pr
 |`rg_Image2D`   | `rg_AccumulatedImage`   | 2D image buffer with the accumulated values (after blending operation) |
 |`vec4`         | `rg_ImageFetch2D(rg_Image2D I, ivec2 uv)`       | 2D image fetch from the specified pixel coordinates |
 
-## Path tracing in one hour!
+## Path tracing in one hour
 
 We provide here a basic example, in order to present the pipeline and demonstrate Rayground’s API mechanisms. It implements
 a simple unidirectional path tracer for diffuse surfaces in only a few lines of code. For clarity, the code of certain functions, commonly encountered in a typical path tracer, has been omitted (function declarations are included in the code listings below). Figures 2 (left) and 4 illustrate how the Cornell Box scene is illuminated using this code after 500 samples per pixel. For more details, the interested reader can find the complete working example <a href="https://www.rayground.com/view/dExaQa67tqI"> here</a>.
