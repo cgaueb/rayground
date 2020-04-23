@@ -12,12 +12,12 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 
 ### Table of Contents
 
-- [Prerequisites](##Prerequisites)
-- [Aim](##Aim)
-- [Description](##Description)
-- [Path tracing in one hour!](##Path-tracing-in-one-hour!)
-- [Research Achievements](##Research-Achievements)
-- [Example Projects](##Example-Projects)
+- [Prerequisites](#Prerequisites)
+- [Aim](#Aim)
+- [Description](#Description)
+- [Path tracing in one hour!](#Path-tracing-in-one-hour!)
+- [Research Achievements](#Research-Achievements)
+- [Example Projects](#Example-Projects)
 
 ## Prerequisites
 
