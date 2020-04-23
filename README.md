@@ -1,5 +1,7 @@
 # [Rayground: Ray tracing prototyping on the web](https://www.rayground.com)
 
+### Overview
+
 <p style='text-align: justify;'>
 Rayground is a web-based framework for rapid prototyping of algorithms based on the ray tracing paradigm. Its main goal is to help develop, test and share self contained modules that showcase a particular method or technique. 
 This work aims to demystify ray tracing fundamentals while relying on the established GLSL shading language for code development and the underlying WebGL pipeline for its hidden execution model. It is intended for people who are already familiar with the basics of computer graphics theory and shader-based programming. A detailed documentation of the Rayground's programming interface is available <a href="https://www.rayground.com/documentation"> on-site</a>, coupled with  many demo and tutorial projects, in order tο ease the way of newcomers.
@@ -7,6 +9,15 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 
 ![Image description](Figures/teaser.jpg)
 **Figure 1.** Rayground logo illuminated and shaded with a simple path tracer implementation. Project link can be found <a href="https://www.rayground.com/view/WwBwf-k639U"> here </a>.
+
+### Table of Contents
+
+- [Prerequisites](##Prerequisites)
+- [Aim](##Aim)
+- [Description](##Description)
+- [Path tracing in one hour!](##Path-tracing-in-one-hour!)
+- [Research Achievements](##Research-Achievements)
+- [Example Projects](##Example-Projects)
 
 ## Prerequisites
 
@@ -325,3 +336,4 @@ Rayground would not have been possible without these amazing open-source technol
 - <a href="http://www.codemirror.net/"> Code Mirror </a>
 - <a href="https://github.com/chadaustin/sajson"> sajson </a>
 - <a href="https://webassembly.org/"> WebAssembly </a> through <a href="https://emscripten.org/"> emscripten </a>
+- <a href="https://github.com/mrdoob/stats.js/"> stats.js </a>
