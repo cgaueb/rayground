@@ -71,11 +71,11 @@ The Rayground API is implemented using the WebGL2 standard, supporting shader pr
 |**_Generate/Hit/Miss stages_**                                         |
 |`out vec4`     | `rg_RayOrigin`        | output ray origin (.xyz position, .w active flag) |
 |`out vec4`     | `rg_RayDirection`     | output ray direction (.xyz direction, .w max travel distance)    |
-|`out vec4`     | `rg_Payload0`         | output ray payload values                |
+|`out vec4`     | `rg_Payload0..3`      | output ray payload values                |
 |`out vec4`     | `rg_Accumulation`     | output ray accumulation color (.rgb values, .a additive blending factor)|
 |`in  vec4`     | `rg_PrevRayOrigin`    | input ray origin               |
 |`in  vec4`     | `rg_PrevRayDirection` | input ray direction            |
-|`in  vec4`     | `rg_PrevPayload0`     | input ray payload              |
+|`in  vec4`     | `rg_PrevPayload0..3`  | input ray payload              |
 |`in  vec4`     | `rg_PrevAccumulation` | input ray accumulation color   |
 |`in  int`      | `rg_Depth`            | ray depth iteration, starts at 0 and gets incremented after each intersection |
 |`bool`         | `rg_TraceOcclusion(vec3 o, vec3 d, float t)`           | occlusion query along a specified ray segment |
