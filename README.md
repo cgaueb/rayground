@@ -31,7 +31,7 @@ Rayground has been successfully tested with the following configurations:
 |:---               |:---                       |:---                             |:---                        |:---   |:---   
 |Personal Computer           | Nvidia GeForce GTX 670    | Ubuntu 18.04.4 LTS      | Chrome, Firefox            | Success | -
 |Personal Computer           | Nvidia GeForce RTX 2080   | Windows 10 Pro          | Chrome, Firefox            | Success | -
-|MacBook Pro 13-inch, Mid 2009           | NVIDIA GeForce 9400M | OS X El Capitan          | Chrome, Firefox            | Success | Canvas resize not working
+|MacBook Pro 13-inch, Mid 2009           | NVIDIA GeForce 9400M | OS X El Capitan          | Chrome, Firefox            | Success | -
 |Xiaomi Redmi Note 6 Pro      | Adreno 509 | Android 9 Pie          | Chrome            | Success | - 
 
 ## Aim
