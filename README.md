@@ -33,6 +33,7 @@ Rayground has been successfully tested with the following configurations:
 |Personal Computer           | Nvidia GeForce RTX 2080   | Windows 10 Pro          | Chrome, Firefox            | Success | -
 |MacBook Pro 13-inch, Mid 2009           | NVIDIA GeForce 9400M | OS X El Capitan          | Chrome, Firefox            | Success | -
 |Xiaomi Redmi Note 6 Pro      | Adreno 509 | Android 9 Pie          | Chrome            | Success | - 
+|Raspberry Pi 4 model B      | Broadcom VideoCore VI | Raspbian          | Chrome            | Success | in complex projects 
 
 ## Aim
 
