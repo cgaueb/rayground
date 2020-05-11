@@ -37,7 +37,7 @@ Rayground has been successfully tested with the following configurations:
 
 ## Aim
 
-The goal of this github account is twofold: 
+The goals of this github account are: 
 - Guide newcomers with a step-by-step navigation to the Rayground' API through a simple path tracing implementation.
 - Inform the active users what new [features](https://github.com/cgaueb/rayground/projects) are coming in the next version(s) of the website.
 - Offer accessibility for bug reporting, enhancements or feature [requests](https://github.com/cgaueb/rayground/issues).
