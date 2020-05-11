@@ -329,7 +329,6 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
  </a> by 
 <a href="https://www.rayground.com/users/Agkar"> Agkar </a> </br>
 
-
 ## Open-Source Libraries
 
 Rayground would not have been possible without these amazing open-source technologies:
@@ -338,3 +337,4 @@ Rayground would not have been possible without these amazing open-source technol
 - <a href="https://github.com/chadaustin/sajson"> sajson </a>
 - <a href="https://webassembly.org/"> WebAssembly </a> through <a href="https://emscripten.org/"> emscripten </a>
 - <a href="https://github.com/mrdoob/stats.js/"> stats.js </a>
+- <a href="https://sweetalert2.github.io/"> sweetalert2 </a>
