@@ -1,4 +1,4 @@
-# [Rayground: Ray tracing prototyping on the web](https://www.rayground.com)
+# [Rayground.com: Ray tracing prototyping on the web](https://www.rayground.com)
 
 ### Overview
 
