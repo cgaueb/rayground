@@ -254,7 +254,7 @@ void rg_post_process() {
 
 **Idea**. In [VGV+20], Rayground is used as an online, interactive education tool for richer in-class teaching and gradual self-study by providing a convenient introduction into practical ray tracing. In this work, an extensive discussion is offered describing how both undergraduate (Fig. 5) and postgraduate (Fig. 6) computer graphics theoretical lectures and laboratory sessions can be enhanced by Rayground, in order to achieve a broad understanding of the underlying concepts. For more details please refer to the original manuscript provided below.
 
-**[VGV+20]** Vitsas N., Gkaravelis A., Vasilakis A. A., Vardis A., Papaioannou G., '_Rayground: An Online Educational Tool for Ray Tracing_'. In Eurographics 2020 - Education Papers (2020), The Eurographics Association.<br/><br/>
+**[VGV+20]** Vitsas N., Gkaravelis A., Vasilakis A. A., Vardis K., Papaioannou G., '_Rayground: An Online Educational Tool for Ray Tracing_'. In Eurographics 2020 - Education Papers (2020), The Eurographics Association.<br/><br/>
 <a href="http://graphics.cs.aueb.gr/graphics/docs/papers/Rayground___EG_2020_Educational.pdf">
 <img alt="author's version pdf" src="Figures\pdf.png" width="100">
 </a>
