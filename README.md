@@ -258,7 +258,7 @@ void rg_post_process() {
 <a href="Multimedia/eg2020_edu_RG_paper.pdf">
 <img alt="author's version pdf" src="Figures\pdf.png" width="100">
 </a>
-<a href="Multimedia/eg2020_edu_RG_presentation.pdf">
+<a href="Multimedia/eg2020_edu_RG_presentation.pptx">
 <img alt="EG presentation" src="Figures\pptx.png" width="100">
 </a>
 
