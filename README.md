@@ -255,11 +255,14 @@ void rg_post_process() {
 **Idea**. In [VGV+20], Rayground is used as an online, interactive education tool for richer in-class teaching and gradual self-study by providing a convenient introduction into practical ray tracing. In this work, an extensive discussion is offered describing how both undergraduate (Fig. 5) and postgraduate (Fig. 6) computer graphics theoretical lectures and laboratory sessions can be enhanced by Rayground, in order to achieve a broad understanding of the underlying concepts. For more details please refer to the original manuscript provided below.
 
 **[VGV+20]** Vitsas N., Gkaravelis A., Vasilakis A. A., Vardis K., Papaioannou G., '_Rayground: An Online Educational Tool for Ray Tracing_'. In Eurographics 2020 - Education Papers (2020), The Eurographics Association.<br/><br/>
-<a href="Multimedia/eg2020_edu_RG_paper.pdf">
-<img alt="author's version pdf" src="Figures\pdf.png" width="100">
+<a href="https://diglib.eg.org/bitstream/handle/10.2312/eged20201027/001-008.pdf" target="_blank">
+<img alt="EG2020 paper" src="Figures\pdf.png" width="100">
 </a>
-<a href="Multimedia/eg2020_edu_RG_presentation.pptx">
-<img alt="EG presentation" src="Figures\pptx.png" width="100">
+<a href="Multimedia/eg2020_edu_RG_presentation.pptx" target="_blank">
+<img alt="EG2020 presentation" src="Figures\pptx.png" width="100">
+</a>
+<a href="https://www.youtube.com/watch?v=xwrZ3c93tDc" target="_blank">
+<img alt="EG2020 video" src="Figures\youtube.png" width="100">
 </a>
 
 **Figures.**
