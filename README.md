@@ -261,7 +261,7 @@ void rg_post_process() {
 <a href="Multimedia/eg2020_edu_RG_presentation.pptx" target="_blank">
 <img alt="EG2020 presentation" src="Figures\pptx.png" width="100">
 </a>
-<a href="https://youtu.be/xwrZ3c93tDc?t=158" target="_blank">
+<a href="https://youtu.be/xwrZ3c93tDc?t=164" target="_blank">
 <img alt="EG2020 video" src="Figures\youtube.png" width="100">
 </a>
 
