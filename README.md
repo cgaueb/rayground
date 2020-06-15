@@ -7,8 +7,8 @@ Rayground is a web-based framework for rapid prototyping of algorithms based on 
 This work aims to demystify ray tracing fundamentals while relying on the established GLSL shading language for code development and the underlying WebGL pipeline for its hidden execution model. It is intended for people who are already familiar with the basics of computer graphics theory and shader-based programming. A detailed documentation of the Rayground's programming interface is available <a href="https://www.rayground.com/documentation"> on-site</a>, coupled with  many demo and tutorial projects, in order tο ease the way of newcomers.
 </p>
 
-![Image description](Figures/teaser.jpg)
-**Figure 1.** Rayground logo illuminated and shaded with a simple path tracer implementation. Project link can be found <a href="https://www.rayground.com/view/WwBwf-k639U"> here </a>.
+![Image description](Figures/teaser_proejcts.jpg)
+**Figure 1.** A collection of ray traced projects created on the web using Rayground</a>.
 
 ### Table of Contents
 
