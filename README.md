@@ -1,5 +1,7 @@
 # [Rayground.com: Ray tracing prototyping on the web](https://www.rayground.com)
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/rayground_com.svg?style=social)](https://twitter.com/rayground_com)
+
 ### Overview
 
 <p style='text-align: justify;'>
