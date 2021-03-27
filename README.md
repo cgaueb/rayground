@@ -279,7 +279,7 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
 
 ## Grants
 
-![Image description](Figures/epic_megagrants.jpg)
+<img src="Figures/epic_megagrants.jpg" alt="drawing" width="200"/>
 
 ## Open-Source Libraries
 
