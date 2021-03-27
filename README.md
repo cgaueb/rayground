@@ -16,7 +16,6 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 ![Teaser Image](Figures/teaser_projects.png)
 **Figure 1.** A collection of ray traced projects created on the web using Rayground.
 
-
 ### Table of Contents
 
 - [Prerequisites](#Prerequisites)
@@ -24,23 +23,11 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 - [Description](#Description)
 - [Path tracing in one hour](#Path-tracing-in-one-hour)
 - [Research Achievements](#Research-Achievements)
-- [Example Projects](#Example-Projects)
+- [Grants](#Grants)
 
 ## Prerequisites
 
 Rayground is open, cross-platform, and available to everyone. It does not rely on any browser plugins and thus runs on any platform that has a modern standards compliant browser. Specifically, the website runs only on WebGL2-enabled browsers and requires the `EXT_color_buffer_float` extension. 
-
-### Tested Configurations
-
-Rayground has been successfully tested with the following configurations:
-
-| **Device**                    | **Graphics Card**         | **OS**                 | **Browser**                | **Status** | **Issues** |
-|:---                           |:---                       |:---                    |:---                        |:---        |:---   
-| Personal Computer             | Nvidia GeForce GTX 670    | Ubuntu 18.04.4 LTS     | Chrome, Firefox            | Success    | -
-| Personal Computer             | Nvidia GeForce RTX 2080   | Windows 10 Pro         | Chrome, Firefox, Edge      | Success    | -
-| MacBook Pro 13-inch, Mid 2009 | NVIDIA GeForce 9400M      | OS X El Capitan        | Chrome, Firefox            | Success    | -
-| Xiaomi Redmi Note 6 Pro       | Adreno 509                | Android 9 Pie          | Chrome                     | Success    | - 
-| Raspberry Pi 4 model B        | Broadcom VideoCore VI     | Raspbian               | Chrome                     | Success    | in complex projects 
 
 ## Aim
 
@@ -48,7 +35,7 @@ The goals of this github account are:
 - Guide newcomers with a step-by-step navigation to the Rayground' API through a simple path tracing implementation.
 - Inform the active users what new [features](https://github.com/cgaueb/rayground/projects) are coming in the next version(s) of the website.
 - Offer accessibility for bug reporting, enhancements or feature [requests](https://github.com/cgaueb/rayground/issues).
-- Provide a brief summary of successful projects.
+- Provide a brief summary our sponsors.
 
 ## Description
 
@@ -261,6 +248,8 @@ void rg_post_process() {
 
 **Idea**. In [VGV+20], Rayground is used as an online, interactive education tool for richer in-class teaching and gradual self-study by providing a convenient introduction into practical ray tracing. In this work, an extensive discussion is offered describing how both undergraduate (Fig. 5) and postgraduate (Fig. 6) computer graphics theoretical lectures and laboratory sessions can be enhanced by Rayground, in order to achieve a broad understanding of the underlying concepts. For more details please refer to the original manuscript provided below.
 
+**Resources**. To encourage more teachers to incorporate Rayground into their computer graphics and visualization courses, the teaching material built during our course to support remote learning as well as to promote auto-didactic engagement and collaboration (such as presentations and lab exercises) are provided freely from [here](Education).
+
 **[VGV+20]** Vitsas N., Gkaravelis A., Vasilakis A. A., Vardis K., Papaioannou G., '_Rayground: An Online Educational Tool for Ray Tracing_'. In Eurographics 2020 - Education Papers (2020), The Eurographics Association.<br/><br/>
 <a href="https://diglib.eg.org/bitstream/handle/10.2312/eged20201027/001-008.pdf" target="_blank">
 <img alt="EG2020 paper" src="Figures\pdf.png" width="100">
@@ -279,7 +268,7 @@ void rg_post_process() {
 a) <a href="https://www.rayground.com/view/WmVHCgz0qss"> Unlit shading of supported primitives. </a>
 b) <a href="https://www.rayground.com/view/7_Pl0NIBFdQ"> Cornell Box using normal vector colouring </a> and 
 c) <a href="https://www.rayground.com/view/H-Ve5hrVPug"> Lambertian shading</a>.
-d) <a href="https://www.rayground.com/view/LYnWPJNFuPU"> Whitted-style ray tracing</a>.
+d) <a href="https://www.rayground.com/view/LYnWPJNFuPU"> Whitted ray tracing</a>.
 
 ![Image description](Figures/lab2.jpg)
 **Figure 6.** Output of the graduate lab session tasks. 
@@ -288,56 +277,9 @@ b) <a href="https://www.rayground.com/view/feYfjVF3fXM"> Unidirectional path tra
 c) <a href="https://www.rayground.com/view/KIemz357k5A"> Comparison of BRDF versus light importance sampling</a>.
 d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a>.
 
-## Example Projects
+## Grants
 
-### <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html"> 1. Ray Tracing in One Weekend </a> 
-
-![Image description](Figures/rtiow.png)
-
-#### Rayground links
-
-<a href="https://www.rayground.com/view/_UfKcxB3gas"> Chapter 4  - Rays, a Simple Camera, and Background </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/sRK1FhKNKc0"> Chapter 5  - Adding a Sphere </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/A5ACqnpz3M4"> Chapter 6  - Surface Normals and Multiple Objects </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a>  </br>
-<a href="https://www.rayground.com/view/lNwc6PhzGHQ"> Chapter 7  - Antialiasing </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/-o_deCr290Y"> Chapter 8  - Diffuse Materials </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/1vUO9oRPNQU"> Chapter 9  - Metal </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/tdUZeZ29Y2I"> Chapter 10 - Dielectrics </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/NSGnYLZjYqc"> Chapter 11 - Positionable Camera </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/1cdXcNivq58"> Chapter 12 - Defocus Blur </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/2hucHmtxldY"> Chapter 13 - Where Next? </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-
-### <a href="https://raytracing.github.io/books/RayTracingTheNextWeek.html"> 2. Ray Tracing the Next Week </a> 
-
-![Image description](Figures/rttnw.png)
-
-#### Rayground links
-
-<a href="https://www.rayground.com/view/szTlW7Tb7Nk"> Chapter 4  - Solid Textures </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/9xM4xAb6KJ4"> Chapter 5  - Perlin Noise </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/Ag2PFM0Ww-U"> Chapter 6  - Image Texture Mapping </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/DPPp6Gb5ZZg"> Chapter 7  - Rectangles and Lights </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/elkPNzPc5qA"> Chapter 8  - Instances </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-<a href="https://www.rayground.com/view/bKLY3YWRzPg"> Chapter 9  - Volumes </a> by <a href="https://www.rayground.com/users/abasilak"> abasilak </a> </br>
-
-### <a href="https://dl.acm.org/doi/abs/10.1145/1198555.1198743"> 3. Whitted Ray Tracing </a> 
-
-![Image description](Figures/whitted.png)
-
-#### Rayground links
-
-<a href="https://www.rayground.com/view/LYnWPJNFuPU"> Whitted </a> by 
-<a href="https://www.rayground.com/users/Vineek"> Vineek </a> </br>
-
-### <a href="https://dl.acm.org/doi/abs/10.1145/1198555.1198743"> 4. Ambient Occlusion </a> 
-
-![Image description](Figures/ao.png)
-
-#### Rayground links
-
-<a href="https://www.rayground.com/view/RuVlw5EAs9A"> Ambient Occlusion
- </a> by 
-<a href="https://www.rayground.com/users/Agkar"> Agkar </a> </br>
+![Image description](Figures/epic_megagrants.jpg)
 
 ## Open-Source Libraries
 
