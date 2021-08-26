@@ -19,7 +19,6 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 ### Table of Contents
 
 - [Prerequisites](#Prerequisites)
-- [Aim](#Aim)
 - [Description](#Description)
 - [Path tracing in one hour](#Path-tracing-in-one-hour)
 - [Research Achievements](#Research-Achievements)
@@ -27,7 +26,7 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 
 ## Prerequisites
 
-Rayground is open, cross-platform, and available to everyone. It does not rely on any browser plugins and thus runs on any platform that has a modern standards compliant browser. Specifically, the website runs only on WebGL2-enabled browsers and requires the `EXT_color_buffer_float` extension. 
+Rayground is open, cross-platform, and available to everyone. It does not rely on any browser plugins and thus runs on any platform that has a modern standards compliant browser. Specifically, the website runs only on WebGL2-enabled browsers and requires the `EXT_color_buffer_float` extension. A prototype version of <a href="https://github.com/phasmatic3d/webrays"> WebRays </a> was successfully utilized for the implementation of the Rayground platform. `WebRays` exposes an easy-to-use and explicit API with lightweight support for acceleration data structures, to enable ray/triangle intersection functionality in Web-based applications.
 
 ## Aim
 
@@ -35,7 +34,7 @@ The goals of this github account are:
 - Guide newcomers with a step-by-step navigation to the Rayground' API through a simple path tracing implementation.
 - Inform the active users what new [features](https://github.com/cgaueb/rayground/projects) are coming in the next version(s) of the website.
 - Offer accessibility for bug reporting, enhancements or feature [requests](https://github.com/cgaueb/rayground/issues).
-- Provide a brief summary our sponsors.
+- Provide a brief summary our [sponsors](#Grants).
 
 ## Description
 
@@ -248,7 +247,7 @@ void rg_post_process() {
 
 **Idea**. In [VGV+20], Rayground is used as an online, interactive education tool for richer in-class teaching and gradual self-study by providing a convenient introduction into practical ray tracing. In this work, an extensive discussion is offered describing how both undergraduate (Fig. 5) and postgraduate (Fig. 6) computer graphics theoretical lectures and laboratory sessions can be enhanced by Rayground, in order to achieve a broad understanding of the underlying concepts. For more details please refer to the original manuscript provided below.
 
-**Resources**. To encourage more teachers to incorporate Rayground into their computer graphics and visualization courses (see [VGV+21]), the teaching material built during our course to support remote learning as well as to promote auto-didactic engagement and collaboration (such as presentations and lab exercises) are provided freely from [here](education).
+**Resources**. To encourage more teachers to incorporate Rayground into their computer graphics and visualization courses (see [VGV+21]), the teaching material built during our course to support remote learning as well as to promote auto-didactic engagement and collaboration (such as presentations and lab exercises) are provided freely from [here](education). Last but not least, details and online demos about `WebRays` [VGV+21_2] - a GPU-accelerated ray intersection engine for the World Wide Web - which has been deployed at the core of the Rayground platform are available <a href="https://cgaueb.github.io/publications/webrays/" target="_blank">here</a>.
 
 **[VGV+20]** Vitsas N., Gkaravelis A., Vasilakis A. A., Vardis K., Papaioannou G., '_Rayground: An Online Educational Tool for Ray Tracing_'. In Eurographics 2020 - Education Papers (2020), The Eurographics Association.<br/><br/>
 <a href="https://diglib.eg.org/bitstream/handle/10.2312/eged20201027/001-008.pdf" target="_blank">
@@ -262,6 +261,11 @@ void rg_post_process() {
 </a>
 
 **[VGV+21]** Vitsas N., Gkaravelis A., Vasilakis A. A., Papaioannou G., '_Remote Teaching Advanced Rendering Topics using the Rayground Platform_'. In IEEE Computer Graphics & Applications, vol. 41 , issue 5, August, 2021.<br/><br/>
+
+**[VGV+21_2]** Vitsas N., Gkaravelis A., Vasilakis A. A., Papaioannou G., '_WebRays: Ray Tracing on the Web_'. In Ray Tracing Gems II, ch. 18, August, 2021.<br/><br/>
+<a href="https://link.springer.com/content/pdf/10.1007%2F978-1-4842-7185-8_18.pdf" target="_blank">
+<img alt="RTGII chapter" src="Figures\pdf.png" width="100">
+</a>
 
 **Figures.**
 
@@ -287,6 +291,7 @@ d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a
 
 Rayground would not have been possible without these amazing open-source technologies:
 
+- <a href="https://github.com/phasmatic3d/webrays"> WebRays </a>
 - <a href="http://www.codemirror.net/"> Code Mirror </a>
 - <a href="https://github.com/chadaustin/sajson"> sajson </a>
 - <a href="https://webassembly.org/"> WebAssembly </a> through <a href="https://emscripten.org/"> emscripten </a>
