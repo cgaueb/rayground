@@ -260,7 +260,10 @@ void rg_post_process() {
 <img alt="EG2020 video" src="Figures\youtube.png" width="100">
 </a>
 
-**[VGV+21]** Vitsas N., Gkaravelis A., Vasilakis A. A., Papaioannou G., '_Remote Teaching Advanced Rendering Topics using the Rayground Platform_'. In IEEE Computer Graphics & Applications, vol. 41 , issue 5, August, 2021.<br/><br/>
+**[VGV+21]** Vasilakis A. A., Papaioannou G., Vitsas N., Gkaravelis A., '_Remote Teaching Advanced Rendering Topics using the Rayground Platform_'. In IEEE Computer Graphics & Applications, vol. 41 , issue 5, 99-103, Sep, 2021.<br/><br/>
+<a href="https://ieeexplore.ieee.org/document/9535170" target="_blank">
+<img alt="IEEE CGA paper" src="Figures\pdf.png" width="100">
+</a>
 
 **[VGV+21_2]** Vitsas N., Gkaravelis A., Vasilakis A. A., Papaioannou G., '_WebRays: Ray Tracing on the Web_'. In Ray Tracing Gems II, ch. 18, August, 2021.<br/><br/>
 <a href="https://link.springer.com/content/pdf/10.1007%2F978-1-4842-7185-8_18.pdf" target="_blank">
