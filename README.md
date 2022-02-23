@@ -22,6 +22,7 @@ This work aims to demystify ray tracing fundamentals while relying on the establ
 - [Description](#Description)
 - [Path tracing in one hour](#Path-tracing-in-one-hour)
 - [Research Achievements](#Research-Achievements)
+- [Useful Tools](#Tools)
 - [Grants](#Grants)
 
 ## Prerequisites
@@ -285,6 +286,20 @@ a) <a href="https://www.rayground.com/view/RuVlw5EAs9A"> Ambient occlusion</a>.
 b) <a href="https://www.rayground.com/view/feYfjVF3fXM"> Unidirectional path tracer using importance sampling</a>.
 c) <a href="https://www.rayground.com/view/KIemz357k5A"> Comparison of BRDF versus light importance sampling</a>.
 d) <a href="https://www.rayground.com/view/WfC8cSyuX6Y"> Volumetric rendering</a>.
+
+## Useful Tools
+
+A. [rg_obj2vertices.py](Tools/rg_obj2vertices.py): Transforms an `.obj` file into a raw vertex buffer of a triangular mesh that can be used as an array of `vertices` for a `triangles` object type in **Scene** description. Usage:
+
+```python
+python rg_obj2vertices.py <obj_file.obj> <output_file.txt>
+```
+
+B. [rg_upload_project.py](Tools/rg_upload_project.py): Uploads a saved Rayground project, extracted in `.json` form, into a newly created project. Run 'output_code.txt' in console (F12) and then reload web page (F5) to refresh project contents. Usage:
+
+```python
+python rg_upload_project.py <json_file.json> <output_code.txt>
+```
 
 ## Grants
 
